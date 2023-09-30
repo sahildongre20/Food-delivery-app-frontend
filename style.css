@@ -1,0 +1,160 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.head-section{
+    background-color: #FFFDF0;
+    margin:0 !important ;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    font-size: 14px;
+
+}
+nav{
+    padding-bottom: 20px;
+}
+.link-list> li {
+    list-style: none;
+    display: inline;
+}
+.link-list a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+.nav-logo{
+    width: 140px;
+}
+.nav-search{
+    border: 1px solid #F7F6F2;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    align-items: center;
+}
+.bag-logo{
+    width: 30px;
+}
+.nav-search i{
+    vertical-align: center;
+    margin-left: 10px;
+}
+.vertical-line{
+    width: 2px;
+    height: 20px;
+    vertical-align: center;
+    display: inline-block;
+    background-color: #F4F4F5;
+}
+nav{
+    position: static;
+    top: 0;
+}
+.nav-search>input{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.fd-btn{
+    background-color: #F94A3D ;
+    color: white ;
+    border-radius: 10px ;
+    font-size: 14px ;
+    border: none;
+}
+
+.nav-group{
+    display: flex;
+    justify-content: space-between;
+    flex:0.53;
+}
+.hero-text{
+    flex: 0.4;
+    margin-right: 50PX;
+}
+.hero-text h1{
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.hero-text p{
+    font-size: 16px;
+    color: #69697B;
+
+}
+.hero-img{
+    flex: 0.65;
+}
+.hero-img img{
+    width: 100%;
+}
+.hero-text span{
+    color: #F94A3D;
+
+}
+.hero-text button{
+    margin-top: 15px;
+}
+.hero-section {
+    height: 90vh;
+    width: 100vw;
+}
+.about-us-text{
+    flex: 1;
+}
+.about-card-container{
+    flex: 3;
+    display: flex;
+    border: 2px solid dark !important;
+
+}
+.about-us-card{
+    box-sizing: border-box;
+    flex: 1;
+    margin-right: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.about-us-card img{
+    width: 130px;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    margin-bottom: -30px;
+
+}
+.about-us-text{
+    padding: 20px;
+    
+}
+
+.about-us-card h3{
+    border: none;
+    width: 100%;
+    box-shadow: 0 -6px 0 #fff, 0 1px 6px rgba(0,0,0, .15);
+    border-radius: 10px;
+    padding: 40px 20px 20px;
+    z-index: 1;
+
+}
+.middle-card h3{
+    box-shadow: 0 -6px 0 #fff, 0 1px 6px rgba(255,208,6, 1);
+}
+.about-us-card h3{
+    font-weight: 600;
+    margin-top: 10px;
+    padding-bottom: -15px;
+}
+.about-us-text h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.about-us-text p{
+    color: #69697B;
+}
+#about-us{
+    margin: 100px auto !important ;
+}
