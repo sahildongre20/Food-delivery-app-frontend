@@ -1,0 +1,12 @@
+<div class="about-card-container">
+                <div class="about-us-card ">
+                    <img src="img/chicken.png" alt="chicken">
+                    
+                </div>
+                <div class="about-us-card middle-card">
+                    
+                </div>
+                <div class="about-us-card">
+                    
+                </div>
+            </div>
